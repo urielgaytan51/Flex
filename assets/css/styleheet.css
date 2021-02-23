@@ -1,4 +1,4 @@
-/** {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,6 +6,42 @@
 
 .container {
     width: 100%;
-    height: auto;
-}*/
+    height: 100vh;
+    margin-bottom: 20px;
+    border: teal 2px solid;
+}
 
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-colum {
+    flex-direction: column;
+}
+
+.flex-space-around {
+    justify-content: space-around;
+}
+
+.flex-space-between {
+    justify-content: space-around;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-star {
+    justify-content: flex-start;
+}
+
+.box {
+    width: 100px;
+    height: 10px;
+    border: orange 2px solid;
+    background-color: lightblue;
+}
