@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-colum {
+    flex-direction: column;
+}
+
+.flex-space-around {
+    justify-content: space-around;
+}
+
+.flex-end {
+    justify-content: space-around;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: rgb(59, 58, 58) 5px solid;
+    background-color: rgb(63, 7, 7);
+}
+
+.container :vertical{
+    border: blueviolet 2px solid;
+    height: 10px;
+}
